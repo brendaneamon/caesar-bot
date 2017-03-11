@@ -1,5 +1,5 @@
 module.exports = (robot) ->
-  robot.respond /hail, caesar/i, (res) ->
+  robot.respond /./i, (res) ->
     randomSententiae = [
       "Non sum rex, sed Caesar"
       "Veni, vidi, vici"

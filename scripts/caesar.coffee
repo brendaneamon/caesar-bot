@@ -1,5 +1,5 @@
 module.exports = (robot) ->
-  robot.respond /./i, (res) ->
+  robot.hear /Caesar/i, (res) ->
     randomSententiae = [
       "Non sum rex, sed Caesar"
       "Veni, vidi, vici"
@@ -10,5 +10,4 @@ module.exports = (robot) ->
       "Horum omnium fortissimi sunt Belgae"
       "Fere libenter homines id quod volunt credunt"
     ]
-    sententia = randomSententiae[Math.floor(Math.random() * randomSententiae.length)]
-    res.reply sententia
+    res.send res.random sententiae

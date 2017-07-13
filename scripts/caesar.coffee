@@ -10,4 +10,4 @@ module.exports = (robot) ->
       "Horum omnium fortissimi sunt Belgae"
       "Fere libenter homines id quod volunt credunt"
     ]
-    res.send res.random sententiae
+    res.send res.random randomSententiae

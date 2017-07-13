@@ -5,6 +5,7 @@
   "author": "Brendan Magee <bmagee@gmail.com>",
   "description": "CAIUS IULIUS CAESAR",
   "dependencies": {
+    "coffeescript": "1.12.6",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.6",
